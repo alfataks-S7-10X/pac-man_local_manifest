@@ -4,13 +4,15 @@
   <remove-project name="AOKP/frameworks_av" />
   <remove-project name="AOKP/packages_apps_Camera" />
   <remove-project name="AOKP/vendor_aokp" />
+  <remove-project name="platform/hardware/broadcom/wlan" />
   
   <project name="AOKP-MEDIAPAD/frameworks_av" remote="aokp"   path="frameworks/av"  revision="jb-mr1" />
   <project name="AOKP-MEDIAPAD/packages_apps_Camera" remote="aokp"  path="packages/apps/Camera" revision="jb-mr1" />
   <project name="AOKP-MEDIAPAD/vendor_aokp" remote="aokp" path="vendor/aokp"  revision="jb-mr1" />
   <project name="AOKP-MEDIAPAD/android_device_huawei_hws7300u" remote="aokp"  path="device/huawei/hws7300u" revision="aokp-mr1" />
   <project name="AOKP-MEDIAPAD/android_vendor_huawei_hws7300u_proprietary" remote="aokp"  path="vendor/huawei/hws7300u"  revision="jb"  />
-  
+  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan"  remote="aokp" revision="cm-10.1" />
+   
   <project name="Albinoman887/android_hardware_qcom_media" remote="aokp"  path="hardware/qcom/media" revision="cm-10.1" />
   <project name="Albinoman887/android_device_htc_msm8660-common" remote="aokp"  path="device/htc/msm8660-common" revision="jellybean" />
   <project name="Albinoman887/android_hardware_qcom_display-legacy" remote="aokp"  path="hardware/qcom/display-legacy" revision="jellybean" />
