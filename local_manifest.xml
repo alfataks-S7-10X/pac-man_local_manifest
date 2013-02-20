@@ -24,5 +24,4 @@
   <project name="Albinoman887/android_device_htc_msm8660-common" remote="aokp"  path="device/htc/msm8660-common" revision="jellybean" />
   <project name="Albinoman887/android_hardware_qcom_display-legacy" remote="aokp"  path="hardware/qcom/display-legacy" revision="jellybean" />
   <project name="Albinoman887/android_hardware_qcom_media-legacy" remote="aokp"  path="hardware/qcom/media-legacy" revision="jellybean" />
-  <project name="Albinoman887/android_hardware_qcom_audio-legacy" remote="aokp"  path="hardware/qcom/audio-legacy" revision="jellybean" />
 </manifest>
