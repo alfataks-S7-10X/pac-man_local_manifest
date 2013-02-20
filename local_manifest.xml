@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remove-project name="android_hardware_qcom_media" />
-  <remove-project name="AOKP/frameworks_av" />
   <remove-project name="AOKP/packages_apps_Camera" />
   <remove-project name="AOKP/vendor_aokp" />
+  <remove-project name="AOKP/frameworks_native" />
+  <remove-project name="AOKP/frameworks_base" />
+  <remove-project name="AOKP/frameworks_av" />
   <remove-project name="platform/hardware/broadcom/wlan" />
   <remove-project name="platform/external/wpa_supplicant_8" />
 
-  <project name="AOKP-MEDIAPAD/frameworks_av" remote="aokp"   path="frameworks/av"  revision="jb-mr1" />
+ 
+  <project name="AOKP-MEDIAPAD/frameworks_av" remote="aokp"   revision="jb-mr1" path="frameworks/av" />
+  <project name="AOKP-MEDIAPAD/frameworks_base" remote="aokp" revision="jb-mr1" path="frameworks/base"  />
+  <project name="AOKP-MEDIAPAD/frameworks_native" remote="aokp" revision="jb-mr1" path="frameworks/native"  />
   <project name="AOKP-MEDIAPAD/packages_apps_Camera" remote="aokp"  path="packages/apps/Camera" revision="jb-mr1" />
   <project name="AOKP-MEDIAPAD/vendor_aokp" remote="aokp" path="vendor/aokp"  revision="jb-mr1" />
   <project name="AOKP-MEDIAPAD/android_device_huawei_hws7300u" remote="aokp"  path="device/huawei/hws7300u" revision="aokp-mr1" />
