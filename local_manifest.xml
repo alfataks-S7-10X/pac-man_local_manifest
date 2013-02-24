@@ -5,6 +5,7 @@
   <remove-project name="AOKP/frameworks_native" />
   <remove-project name="AOKP/frameworks_av" />
   <remove-project name="android_external_wpa_supplicant_8" />
+  <remove-project name="android_hardware_libhardware_legacy" />
   <!--MEDIAPAD PROJECT-->
   <project name="AOKP-MEDIAPAD/frameworks_av" remote="aokp"   revision="jb-mr1" path="frameworks/av" />
   <project name="AOKP-MEDIAPAD/frameworks_native" remote="aokp" revision="jb-mr1" path="frameworks/native"  />
@@ -12,6 +13,7 @@
   <project name="AOKP-MEDIAPAD/android_device_huawei_hws7300u" remote="aokp"  path="device/huawei/hws7300u" revision="jb-mr1" />
   <project name="AOKP-MEDIAPAD/android_vendor_huawei_hws7300u_proprietary" remote="aokp"  path="vendor/huawei/hws7300u"  revision="jb"  />
   <project name="AOKP-MEDIAPAD/external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aokp" revision="jb-mr1" />
+  <project name="AOKP-MEDIAPAD/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="aokp" revision="jb-mr1" />
   <!--Evervolv-->
   <project path="hardware/qcom/audio-legacy" name="Evervolv/android_hardware_qcom_audio-legacy" remote="aokp" revision="jellybean"/>
   <!--OTHER-->
