@@ -4,8 +4,7 @@
   <remove-project name="AOKP/vendor_aokp" />
   <remove-project name="AOKP/frameworks_native" />
   <remove-project name="AOKP/frameworks_av" />
-  <remove-project name="platform/hardware/broadcom/wlan" />
-  <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="android_external_wpa_supplicant_8" />
   <!--MEDIAPAD PROJECT-->
   <project name="AOKP-MEDIAPAD/frameworks_av" remote="aokp"   revision="jb-mr1" path="frameworks/av" />
   <project name="AOKP-MEDIAPAD/frameworks_native" remote="aokp" revision="jb-mr1" path="frameworks/native"  />
@@ -15,8 +14,6 @@
   <project name="AOKP-MEDIAPAD/external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aokp" revision="jb-mr1" />
   <!--Evervolv-->
   <project path="hardware/qcom/audio-legacy" name="Evervolv/android_hardware_qcom_audio-legacy" remote="aokp" revision="jellybean"/>
-  <!--CM-->
-  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan"  remote="aokp" revision="cm-10.1" />
   <!--OTHER-->
   <project name="Albinoman887/android_hardware_qcom_media" remote="aokp"  path="hardware/qcom/media" revision="cm-10.1" />
   <project name="Albinoman887/android_device_htc_msm8660-common" remote="aokp"  path="device/htc/msm8660-common" revision="jellybean" />
