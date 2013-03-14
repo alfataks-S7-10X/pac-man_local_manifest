@@ -16,10 +16,9 @@
   <project name="AOKP-MEDIAPAD/android_vendor_huawei_hws7300u_proprietary" remote="aokp"  path="vendor/huawei/hws7300u"  revision="jb"  />
   <project name="AOKP-MEDIAPAD/external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aokp" revision="jb-mr1" />
   <project name="AOKP-MEDIAPAD/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="aokp" revision="jb-mr1" />
+  <project name="AOKP-MEDIAPAD/android_hardware_qcom_display-legacy" remote="aokp" path="hardware/qcom/display-legacy" revision="jellybean" />
   <!--Evervolv-->
-  <project path="hardware/qcom/audio-legacy" name="Evervolv/android_hardware_qcom_audio-legacy" remote="aokp" revision="jellybean"/>
-  <!--OTHER-->
-  <project name="Albinoman887/android_hardware_qcom_media" remote="aokp"  path="hardware/qcom/media" revision="cm-10.1" />
-  <project name="Team-Hydra/android_hardware_qcom_display-legacy" remote="aokp" path="hardware/qcom/display-legacy" revision="cm-10.1" />
-  <project name="Team-Hydra/android_hardware_qcom_media-legacy" remote="aokp" path="hardware/qcom/media-legacy" revision="cm-10.1" />
+  <project name="Evervolv/android_hardware_qcom_audio-legacy" path="hardware/qcom/audio-legacy" remote="aokp" revision="jellybean"/>
+  <project name="Evervolv/android_hardware_qcom_media" remote="aokp"  path="hardware/qcom/media" revision="jellybean" />
+  <project name="Evervolv/android_hardware_qcom_media-legacy" remote="aokp" path="hardware/qcom/media-legacy" revision="jellybean" />
 </manifest>
