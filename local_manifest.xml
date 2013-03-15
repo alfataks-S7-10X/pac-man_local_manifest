@@ -8,6 +8,7 @@
   <remove-project name="android_hardware_libhardware_legacy" />
   <!--APPS-->
   <project name="AOKP-MEDIAPAD/android_packages_apps_LockClock" remote="aokp"  path="packages/apps/LockClock" revision="cm-10.1" />
+  <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="aokp" revision="cm-10.1" />
   <!--MEDIAPAD PROJECT-->
   <project name="AOKP-MEDIAPAD/frameworks_av" remote="aokp"   revision="jb-mr1" path="frameworks/av" />
   <project name="AOKP-MEDIAPAD/frameworks_native" remote="aokp" revision="jb-mr1" path="frameworks/native"  />
