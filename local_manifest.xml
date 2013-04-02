@@ -17,11 +17,12 @@
   <project name="AOKP-MEDIAPAD/android_vendor_huawei_hws7300u_proprietary" remote="aokp"  path="vendor/huawei/hws7300u"  revision="jb"  />
   <project name="AOKP-MEDIAPAD/external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aokp" revision="jb-mr1" />
   <project name="AOKP-MEDIAPAD/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="aokp" revision="jb-mr1" />
-  <project name="AOKP-MEDIAPAD/frameworks_av" remote="aokp"   revision="jb-mr1" path="frameworks/av" />
-  <project name="AOKP-MEDIAPAD/frameworks_native" remote="aokp" revision="jb-mr1" path="frameworks/native"  />
-  <!--Evervolv-->
-  <project name="Evervolv/android_hardware_libhardware" path="hardware/libhardware"  remote="aokp" revision="jellybean"/>
-  <project name="Evervolv/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy"  remote="aokp" revision="jellybean"/>
-  <project name="Evervolv/android_hardware_qcom_media" remote="aokp"  path="hardware/qcom/media" revision="jellybean" />
-  <project name="Evervolv/android_hardware_qcom_media-legacy" remote="aokp" path="hardware/qcom/media-legacy" revision="jellybean" />
+  <!--Albinoman887-->
+  <project name="Albinoman887/android_frameworks_av" remote="aokp"  path="frameworks/av" revision="cm-10.1" />
+  <project name="Albinoman887/android_hardware_libhardware" remote="aokp"  path="hardware/libhardware" revision="cm-10.1" />
+  <project name="Albinoman887/android_frameworks_native" remote="aokp"  path="frameworks/native" revision="cm-10.1" />
+  <project name="Team-Hydra/android_hardware_qcom_display-legacy" remote="aokp"  path="hardware/qcom/display-legacy" revision="cm-10.1" />
+  <project name="Team-Hydra/android_hardware_qcom_media-legacy"  remote="aokp"  path="hardware/qcom/media-legacy" revision="cm-10.1" />
+  <project name="Albinoman887/android_hardware_qcom_audio-legacy" remote="aokp"  path="hardware/qcom/audio-legacy" revision="jellybean" />
+  <project name="Albinoman887/android_hardware_qcom_media" remote="aokp"  path="hardware/qcom/media" revision="cm-10.1" />
 </manifest>
