@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="android_hardware_qcom_media" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="AOKP/vendor_aokp" />
   <remove-project name="AOKP/frameworks_native" />
   <remove-project name="AOKP/frameworks_av" />
-  <remove-project name="android_hardware_libhardware" />
-  <remove-project name="android_external_wpa_supplicant_8" />
-  <remove-project name="android_hardware_libhardware_legacy" />
+  <remove-project name="CyanogenMod/android_hardware_libhardware" />
+  <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
+  <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
   <!--APPS-->
   <project name="AOKP-MEDIAPAD/android_packages_apps_LockClock" remote="aokp"  path="packages/apps/LockClock" revision="cm-10.1" />
   <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="aokp" revision="cm-10.1" />
