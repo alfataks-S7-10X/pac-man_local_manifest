@@ -2,6 +2,7 @@
 <manifest>
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="AOKP/vendor_aokp" />
+  <remove-project name="AOKP/frameworks_base" />
   <remove-project name="AOKP/frameworks_native" />
   <remove-project name="AOKP/frameworks_av" />
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
@@ -12,13 +13,14 @@
   <project name="AOKP-MEDIAPAD/android_packages_apps_LockClock" remote="aokp"  path="packages/apps/LockClock" revision="cm-10.1" />
   <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="aokp" revision="cm-10.1" />
   <!--MEDIAPAD PROJECT-->
+  <project name="AOKP-PASSION/frameworks_base" remote="aokp" revision="jb-mr1" path="frameworks/base"  />
   <project name="aftersilence/kernel_mediapad" remote="aokp" path="kernel/huawei/hws7300u"  revision="cm-10.1" />
   <project name="AOKP-MEDIAPAD/vendor_aokp" remote="aokp" path="vendor/aokp"  revision="jb-mr1" />
   <project name="AOKP-MEDIAPAD/android_device_huawei_hws7300u" remote="aokp"  path="device/huawei/hws7300u" revision="jb-mr1" />
   <project name="AOKP-MEDIAPAD/android_vendor_huawei_hws7300u_proprietary" remote="aokp"  path="vendor/huawei/hws7300u"  revision="jb"  />
   <project name="AOKP-MEDIAPAD/external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aokp" revision="jb-mr1" />
   <project name="AOKP-MEDIAPAD/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="aokp" revision="jb-mr1" />
-  <project name="AOKP-MEDIAPAD/system_netd" path="system/netd" remote="aokp" revision="jb-mr1" />
+  <project name="AOKP-MEDIAPAD/android_system_netd" path="system/netd" remote="aokp" revision="cm-10.1" />
   <!--Albinoman887-->
   <project name="Albinoman887/android_frameworks_av" remote="aokp"  path="frameworks/av" revision="cm-10.1" />
   <project name="Albinoman887/android_hardware_libhardware" remote="aokp"  path="hardware/libhardware" revision="cm-10.1" />
