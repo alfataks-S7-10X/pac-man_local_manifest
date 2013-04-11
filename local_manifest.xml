@@ -7,6 +7,7 @@
   <remove-project name="AOKP/build"  />
   <remove-project name="AOKP/packages_apps_Settings" />
   <remove-project name="AOKP/packages_apps_Phone" />
+  <remove-project name="AOKP/system_core" />
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
   <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
@@ -20,6 +21,7 @@
   <project name="AOKP-MEDIAPAD/build" path="build"  remote="aokp" revision="jb-mr1-bluez" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project name="AOKP-MEDIAPAD/system_core" path="system/core"  remote="aokp" revision="jb-mr1-bluez" />
   <project name="AOKP-MEDIAPAD/packages_apps_Phone" path="packages/apps/Phone"  remote="aokp" revision="jb-mr1-bluez" />
   <project name="AOKP-MEDIAPAD/android_packages_apps_LockClock" remote="aokp"  path="packages/apps/LockClock" revision="cm-10.1" />
   <project name="AOKP-PASSION/packages_apps_Settings" path="packages/apps/Settings" remote="aokp" revision="jb-mr1-bluez" />
