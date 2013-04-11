@@ -8,6 +8,7 @@
   <remove-project name="AOKP/packages_apps_Settings" />
   <remove-project name="AOKP/packages_apps_Phone" />
   <remove-project name="AOKP/system_core" />
+  <remove-project name="AOKP/external_bluetooth_bluedroid" />
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
   <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
