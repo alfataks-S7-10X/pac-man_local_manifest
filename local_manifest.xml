@@ -27,7 +27,7 @@
   <project name="AOKP-MEDIAPAD/system_core" path="system/core"  remote="aokp" revision="jb-mr1-bluez" />
   <project name="AOKP-MEDIAPAD/packages_apps_Phone" path="packages/apps/Phone"  remote="aokp" revision="jb-mr1-bluez" />
   <project name="AOKP-MEDIAPAD/android_packages_apps_LockClock" remote="aokp"  path="packages/apps/LockClock" revision="cm-10.1" />
-  <project name="AOKP-PASSION/packages_apps_Settings" path="packages/apps/Settings" remote="aokp" revision="jb-mr1-bluez" />
+  <project name="AOKP-MEDIAPAD/packages_apps_Settings" path="packages/apps/Settings" remote="aokp" revision="jb-mr1" />
   <project name="AOKP-MEDIAPAD/frameworks_base" remote="aokp" revision="jb-mr1-bluez" path="frameworks/base"  />
   <project name="AOKP-MEDIAPAD/vendor_aokp" remote="aokp" path="vendor/aokp"  revision="jb-mr1" />
   <project name="AOKP-MEDIAPAD/android_device_huawei_hws7300u" remote="aokp"  path="device/huawei/hws7300u" revision="jb-mr1" />
