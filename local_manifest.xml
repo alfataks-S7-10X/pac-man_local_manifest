@@ -16,11 +16,13 @@
   <remove-project name="CyanogenMod/android_device_common"  />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/packages/apps/Bluetooth"  />
+  <remove-project name="platform/system/bluetooth" />
   <!--KERNEL-->
   <project name="aftersilence/kernel_mediapad" remote="aokp" path="kernel/huawei/hws7300u"  revision="cm-10.1" />
   <!--CyanogenMod-->
   <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="aokp" revision="cm-10.1" />
-  <!--MEDIAPAD PROJECT-->
+  <project name="CyanogenMod/android_system_bluetooth" path="system/bluetooth" remote="aokp" revision="cm-10.1" />
+ <!--MEDIAPAD PROJECT-->
   <project name="AOKP-MEDIAPAD/build" path="build"  remote="aokp" revision="jb-mr1-bluez" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
