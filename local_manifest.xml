@@ -17,6 +17,7 @@
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/packages/apps/Bluetooth"  />
   <remove-project name="platform/system/bluetooth" />
+  <remove-project name="AOKP/packages_apps_ROMControl" />
   <!--KERNEL-->
   <project name="aftersilence/kernel_mediapad" remote="aokp" path="kernel/huawei/hws7300u"  revision="cm-10.1" />
   <!--CyanogenMod-->
@@ -26,6 +27,7 @@
   <project name="AOKP-MEDIAPAD/build" path="build"  remote="aokp" revision="jb-mr1-bluez" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project name="AOKP-PASSION/packages_apps_ROMControl" remote="aokp" revision="jb-mr1-mod" path="packages/apps/ROMControl"  />
   <project name="AOKP-MEDIAPAD/system_core" path="system/core"  remote="aokp" revision="jb-mr1-bluez" />
   <project name="AOKP-MEDIAPAD/packages_apps_Phone" path="packages/apps/Phone"  remote="aokp" revision="jb-mr1-bluez" />
   <project name="AOKP-MEDIAPAD/android_packages_apps_LockClock" remote="aokp"  path="packages/apps/LockClock" revision="cm-10.1" />
