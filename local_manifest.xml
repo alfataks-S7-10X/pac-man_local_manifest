@@ -49,7 +49,6 @@
   <project name="Albinoman887/android_hardware_libhardware" remote="aokp"  path="hardware/libhardware" revision="cm-10.1" />
   <project name="Albinoman887/android_frameworks_native" remote="aokp"  path="frameworks/native" revision="cm-10.1" />
   <project name="Team-Hydra/android_hardware_qcom_display-legacy" remote="aokp"  path="hardware/qcom/display-legacy" revision="cm-10.1" />
-  <project name="Team-Hydra/android_hardware_qcom_media-legacy"  remote="aokp"  path="hardware/qcom/media-legacy" revision="cm-10.1" />
-  <project name="Albinoman887/android_hardware_qcom_audio-legacy" remote="aokp"  path="hardware/qcom/audio-legacy" revision="jellybean" />
+  <project name="Team-Hydra/android_hardware_qcom_media-legacy"  remote="aokp"  path="hardware/qcom/media-legacy" revision="cm-10.1-legacy" />
   <project name="Albinoman887/android_hardware_qcom_media" remote="aokp"  path="hardware/qcom/media" revision="cm-10.1" />
 </manifest>
