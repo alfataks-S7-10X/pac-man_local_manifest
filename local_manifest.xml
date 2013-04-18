@@ -19,7 +19,7 @@
   <remove-project name="platform/system/bluetooth" />
   <remove-project name="AOKP/packages_apps_ROMControl" />
   <!--KERNEL-->
-  <project name="aftersilence/kernel_mediapad" remote="aokp" path="kernel/huawei/hws7300u"  revision="cm-10.1" />
+  <project name="aftersilence/kernel_mediapad" remote="aokp" path="kernel/huawei/hws7300u"  revision="jb-mr1" />
   <!--CyanogenMod-->
   <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="aokp" revision="cm-10.1" />
   <project name="CyanogenMod/android_system_bluetooth" path="system/bluetooth" remote="aokp" revision="cm-10.1" />
@@ -49,6 +49,6 @@
   <project name="Albinoman887/android_hardware_libhardware" remote="aokp"  path="hardware/libhardware" revision="cm-10.1" />
   <project name="Albinoman887/android_frameworks_native" remote="aokp"  path="frameworks/native" revision="cm-10.1" />
   <project name="Team-Hydra/android_hardware_qcom_display-legacy" remote="aokp"  path="hardware/qcom/display-legacy" revision="cm-10.1-legacy" />
-  <project name="Team-Hydra/android_hardware_qcom_media-legacy"  remote="aokp"  path="hardware/qcom/media-legacy" revision="cm-10.1" />
+  <project name="Team-Hydra/android_hardware_qcom_media-legacy"  remote="aokp"  path="hardware/qcom/media-legacy" revision="cm-10.1-legacy" />
   <project name="Albinoman887/android_hardware_qcom_media" remote="aokp"  path="hardware/qcom/media" revision="cm-10.1" />
 </manifest>
