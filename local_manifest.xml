@@ -14,7 +14,7 @@
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
   <remove-project name="CyanogenMod/android_hardware_qcom_media" />
   <remove-project name="CyanogenMod/android_device_common"  />
-  <remove-project name="platform/system/netd" />
+  <remove-project name="CyanogenMod/android_system_netd" />
   <remove-project name="platform/packages/apps/Bluetooth"  />
   <remove-project name="platform/system/bluetooth" />
   <remove-project name="AOKP/packages_apps_ROMControl" />
