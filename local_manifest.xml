@@ -22,6 +22,7 @@
   <!--Evervolv-->
   <project name="Evervolv/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="aokp" revision="jellybean" />
   <!--CyanogenMod-->
+  <project name="CyanogenMod/android_packages_apps_Apollo" path="packages/apps/Apollo" remote="aokp" revision="cm-10.1" />  
   <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="aokp" revision="cm-10.1" />
   <project name="CyanogenMod/android_system_bluetooth" path="system/bluetooth" remote="aokp" revision="cm-10.1" />
   <!--MEDIAPAD PROJECT-->
