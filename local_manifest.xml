@@ -6,6 +6,7 @@
   <remove-project name="AOKP/packages_apps_Phone" />
   <remove-project name="AOKP/device_lge_mako" />
   <project name="AOKP/kernel_lge_mako" path="kernel/lge/mako"  remote="aokp" revision="jb-mr1" />
+  <project name="AOKP/packages_apps_PerformanceControl" path="packages/apps/PerformanceControl"  remote="aokp" revision="jb-mr1" />
   <project name="CyanogenMod/android_packages_apps_Apollo" path="packages/apps/Apollo" remote="aokp" revision="cm-10.1" />  
   <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="aokp" revision="cm-10.1" />
   <project name="AOKPZMod/packages_apps_Phone" path="packages/apps/Phone"  remote="aokp" revision="jb-mr1-mod" />
