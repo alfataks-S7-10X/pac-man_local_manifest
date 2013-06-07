@@ -5,11 +5,11 @@
   <remove-project name="AOKP/packages_apps_ROMControl" />
   <remove-project name="AOKP/packages_apps_Phone" />
   <remove-project name="AOKP/device_lge_mako" />
-  <project name="labodj/mako-linaro" path="kernel/lge/mako"  remote="aokp" revision="nightlies" />
-  <project name="AOKP/packages_apps_PerformanceControl" path="packages/apps/PerformanceControl"  remote="aokp" revision="jb-mr1" />
   <project name="CyanogenMod/android_packages_apps_Apollo" path="packages/apps/Apollo" remote="aokp" revision="cm-10.1" />  
   <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="aokp" revision="cm-10.1" />
   <project name="CyanogenMod/android_packages_apps_LockClock" remote="aokp"  path="packages/apps/LockClock" revision="cm-10.1" />
+  <project name="AOKPZMod/mako-linaro" path="kernel/lge/mako"  remote="aokp" revision="nightlies" />
+  <project name="AOKPZMod/packages_apps_PerformanceControl" path="packages/apps/PerformanceControl"  remote="aokp" revision="jb-mr1" />
   <project name="AOKPZMod/packages_apps_Phone" path="packages/apps/Phone"  remote="aokp" revision="jb-mr1-mod" />
   <project name="AOKPZMod/packages_apps_ROMControl" remote="aokp" revision="jb-mr1-mod" path="packages/apps/ROMControl"  />
   <project name="AOKPZMod/frameworks_base" remote="aokp" revision="jb-mr1-mod" path="frameworks/base"  />
