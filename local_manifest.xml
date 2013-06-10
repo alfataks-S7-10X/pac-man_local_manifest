@@ -23,13 +23,13 @@
   <remove-project name="android_vendor_pac" />
   <remove-project name="android_vendor_cm" />
   <!--aftersilence-->
-  <project name="aftersilence/kernel_mediapad" remote="github" path="kernel/huawei/hws7300u"  revision="cm-10.1" />
   <project name="aftersilence/android_device_common" path="device/common" remote="github" revision="cm-10.1" />
   <project name="aftersilence/android_external_bluetooth_bluez" path="external/bluetooth/bluez" remote="github" revision="jellybean" />
   <project name="aftersilence/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-10.1" />
   <project name="aftersilence/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="cm-10.1" />
   <project name="aftersilence/android_system_netd" path="system/netd" remote="github" revision="cm-10.1" />
   <!--alfataks-->
+  <project name="alfataks/kernel_mediapad" remote="github" path="kernel/huawei/hws7300u"  revision="cm-10.1" />
   <project name="alfataks/android_build" path="build"  remote="github" revision="cm-10.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
