@@ -17,11 +17,11 @@
   <remove-project name="android_system_core" />
   <remove-project name="android_system_netd" />
   <remove-project name="android_vendor_pac" />
-  <remove-project name="android_vendor_cm" />
   <!--aftersilence-->
   <project name="aftersilence/android_device_common" path="device/common" remote="github" revision="cm-10.1" />
   <project name="aftersilence/android_external_bluetooth_bluez" path="external/bluetooth/bluez" remote="github" revision="jellybean" />
   <project name="aftersilence/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-10.1" />
+  <project name="aftersilence/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="cm-10.1" />
   <project name="aftersilence/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="cm-10.1" />
   <project name="aftersilence/android_system_netd" path="system/netd" remote="github" revision="cm-10.1" />
   <!--alfataks-->
@@ -35,14 +35,11 @@
   <project name="alfataks/packages_apps_ROMControl" path="packages/apps/ROMControl"  remote="github" revision="cm-10.1" />
   <project name="alfataks/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="cm-10.1" />
   <project name="alfataks/android_frameworks_base" remote="github" revision="cm-10.1" path="frameworks/base" />
+  <project name="alfataks/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="github" revision="cm-10.1" />
   <project name="alfataks/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="github" revision="cm-10.1-legacy" />
-  <project name="alfataks/android_vendor_cm" path="vendor/cm"  remote="github" revision="cm-10.1" />
   <project name="alfataks/android_vendor_pac" path="vendor/pac"  remote="github" revision="cm-10.1" />
   <!--MEDIAPAD PROJECT-->
   <project name="AOKPZMod/external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="github" revision="jb-mr1" />
-  <project name="AOKPZMod/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="jb-mr1" />
   <project name="AOKPZMod/android_external_bluetooth_hcidump" path="external/bluetooth/hcidump" remote="github" revision="jb-mr1" />
   <project name="AOKPZMod/external_bluetooth_glib" path="external/bluetooth/glib" remote="github" revision="jb-mr1" />
-  <!--johnnyslt-->
-  <project name="johnnyslt/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="github" revision="cm-10.1" />
 </manifest>
