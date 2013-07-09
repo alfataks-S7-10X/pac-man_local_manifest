@@ -28,7 +28,7 @@
   <project name="alfataks/android_build" path="build"  remote="github" revision="cm-10.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project name="alfataks/kernel_mediapad" remote="github" path="kernel/huawei/hws7300u"  revision="cm-10.1" />
+  <project name="alfataks/android_kernel_Mediapad7" remote="github" path="kernel/huawei/hws7300u"  revision="cm-10.1" />
   <project name="alfataks/android_system_core" path="system/core"  remote="github" revision="cm-10.1" />
   <project name="alfataks/android_packages_apps_LockClock" path="packages/apps/LockClock"  remote="github" revision="cm-10.1" />
   <project name="alfataks/android_packages_apps_Phone" path="packages/apps/Phone"  remote="github" revision="cm-10.1" />
