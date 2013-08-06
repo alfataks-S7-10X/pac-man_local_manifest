@@ -39,14 +39,13 @@
   <project name="alfataks/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="cm-10.1" />
   <project name="alfataks/android_frameworks_base" path="frameworks/base" remote="github" revision="cm-10.1" />
   <project name="alfataks/android_system_core" path="system/core"  remote="github" revision="cm-10.1-s7" />
-  <project name="AOKPZMod/packages_apps_PerformanceControl" path="packages/apps/PerformanceControl"  remote="github" revision="jb-mr1" />
+  <project name="alfataks/android_vendor_pac" path="vendor/pac"  remote="github" revision="cm-10.1" />
   <!--alfataks-S7-10X-->
-    <!--<project name="alfataks-S7-10X/Huawei_S7_kernel_2.6.32" remote="github" path="kernel/huawei/s7"  revision="master" />-->
+  <project name="alfataks-S7-10X/Huawei_S7_kernel_2.6.32" remote="github" path="kernel/huawei/s7"  revision="master" />
   <project name="alfataks-S7-10X/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="github" revision="cm10.1" />
   <project name="alfataks-S7-10X/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="cm-10.1" />
   <project name="alfataks-S7-10X/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy"  remote="github" revision="jellybean" />
   <project name="alfataks-S7-10X/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="github" revision="jellybean" />
-  <project name="alfataks-S7-10X/android_vendor_pac" path="vendor/pac"  remote="github" revision="cm-10.1" />
   <!--Evervolv-->
   <project name="Evervolv/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="jellybean" />
   <project name="Evervolv/android_hardware_qcom_camera" path="hardware/qcom/camera" remote="github" revision="jellybean" />
