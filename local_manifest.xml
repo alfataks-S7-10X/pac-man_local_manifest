@@ -17,14 +17,13 @@
   <remove-project name="android_packages_apps_Bluetooth" />
   <remove-project name="android_packages_apps_LockClock" />
   <remove-project name="android_packages_apps_Phone" />
-  <remove-project name="packages_apps_PerformanceControl" />
   <remove-project name="android_packages_apps_Settings" />
   <remove-project name="android_system_core" />
   <remove-project name="android_system_netd" />
   <remove-project name="android_vendor_pac" />
   <!--aftersilence-->
   <project name="aftersilence/android_device_common" path="device/common" remote="github" revision="cm-10.1" />
-  <project name="aftersilence/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-10.1" />
+  <!--<project name="aftersilence/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-10.1" />-->
   <project name="aftersilence/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="cm-10.1" />
   <project name="aftersilence/android_system_netd" path="system/netd" remote="github" revision="cm-10.1" />
   <!--alfataks-->
@@ -41,12 +40,14 @@
   <project name="alfataks/android_system_core" path="system/core"  remote="github" revision="cm-10.1-s7" />
   <project name="alfataks/android_vendor_pac" path="vendor/pac"  remote="github" revision="cm-10.1" />
   <!--alfataks-S7-10X-->
-  <project name="alfataks-S7-10X/Huawei_S7_kernel_2.6.32" remote="github" path="kernel/huawei/s7"  revision="master" />
+ <!-- <project name="alfataks-S7-10X/Huawei_S7_kernel_2.6.32" remote="github" path="kernel/huawei/s7"  revision="master" />-->
   <project name="alfataks-S7-10X/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="github" revision="cm10.1" />
   <project name="alfataks-S7-10X/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" revision="cm-10.1" />
   <project name="alfataks-S7-10X/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy"  remote="github" revision="jellybean" />
   <project name="alfataks-S7-10X/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="github" revision="jellybean" />
+  <project name="alfataks-S7-10X/android_vendor_huawei_s7_proprietary" path="vendor/huawei/s7"  remote="github" revision="master" />
   <!--Evervolv-->
+  <project name="Evervolv/android_frameworks_av" path="frameworks/av" remote="github" revision="jellybean" />
   <project name="Evervolv/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="jellybean" />
   <project name="Evervolv/android_hardware_qcom_camera" path="hardware/qcom/camera" remote="github" revision="jellybean" />
   <project name="Evervolv/android_hardware_qcom_audio-legacy" path="hardware/qcom/audio-legacy" remote="github" revision="jellybean" />
